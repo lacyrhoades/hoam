@@ -1,0 +1,23 @@
+{
+  "name": "hoam",
+  "version": "1.0.0",
+  "description": "Experiments in home automation and magic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacyrhoades/hoam.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacyrhoades/hoam/issues"
+  },
+  "homepage": "https://github.com/lacyrhoades/hoam#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "twilio": "^3.19.2"
+  }
+}
