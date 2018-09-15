@@ -1,5 +1,3 @@
-Secrets/
-
 # Logs
 logs
 *.log
@@ -73,3 +71,8 @@ typings/
 
 # Serverless directories
 .serverless
+
+
+# App-specific
+Secrets/
+
