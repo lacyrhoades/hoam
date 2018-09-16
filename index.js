@@ -21,8 +21,6 @@ let sendAll = (err, value) => {
     numbers.forEach((number) => {
         sendTo(number)
     })
-
-    console.log(value)
 }
 
 button.watch(
@@ -32,9 +30,6 @@ button.watch(
 console.log("Started doorbell watcher ...")
 
 function sendTo(number) {
-        return;
-
-
     twilio.messages.create({
         body: "Doorbell at " + house.address + " (" + dateFormat(now, "HH:MM m/d/yy") + ")",
         to: number,
